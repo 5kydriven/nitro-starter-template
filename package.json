@@ -5,9 +5,12 @@
 	"bin": {
 		"create-nitro-starter": "./cli.js"
 	},
+	"preferGlobal": true,
 	"files": [
 		"cli.js",
-		"template"
+		"template",
+		"README.md",
+		"package.json"
 	],
 	"dependencies": {
 		"inquirer": "^9.2.15",
