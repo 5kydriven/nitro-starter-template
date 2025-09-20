@@ -1,3 +1,22 @@
-# Nitro starter
+# create-nitro-starter
 
-Look at the [nitro quick start](https://nitro.build/guide#quick-start) to learn more how to get started.
+🚀 Quickly scaffold a new NitroJS standalone backend project with a predefined template.
+
+This CLI helps you start small or semi projects with a uniform structure, preconfigured packages, and best practices.
+
+---
+
+## Requirements
+
+- Node.js v20+
+- npm, pnpm, or bun
+
+---
+
+## Usage
+
+### Using npx (recommended)
+
+```bash
+npx create-nitro-starter my-app
+```
