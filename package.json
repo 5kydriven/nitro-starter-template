@@ -1,16 +1,17 @@
 {
-  "name": "nitro-app",
-  "private": true,
-  "scripts": {
-    "build": "nitro build",
-    "dev": "nitro dev"
-  },
-  "devDependencies": {
-    "h3": "^1.15.4",
-    "nitropack": "^2.12.4"
-  },
-  "dependencies": {
-    "@types/node": "^24.5.2",
-    "zod": "^4.1.9"
-  }
+	"name": "create-nitro-starter",
+	"version": "1.0.0",
+	"type": "module",
+	"bin": {
+		"create-nitro-starter": "./cli.js"
+	},
+	"files": [
+		"cli.js",
+		"template"
+	],
+	"dependencies": {
+		"inquirer": "^9.2.15",
+		"kolorist": "^1.8.0"
+	},
+	"license": "MIT"
 }
