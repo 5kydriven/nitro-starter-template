@@ -16,5 +16,8 @@
 		"inquirer": "^9.2.15",
 		"kolorist": "^1.8.0"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
 }
