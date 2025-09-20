@@ -1,4 +1,4 @@
-# create-nitro-starter
+# nitro-starter-template
 
 🚀 Quickly scaffold a new NitroJS standalone backend project with a predefined template.
 
