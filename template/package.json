@@ -5,7 +5,9 @@
 	"scripts": {
 		"build": "NITRO_ENV=production nitro build",
 		"dev": "nitro dev",
-		"prepare": "nitro prepare"
+		"prepare": "nitro prepare",
+		"db:generate": "drizzle-kit generate:pg --out ./src/db/migrations",
+		"db:migrate": "drizzle-kit migrate:pg --out ./src/db/migrations"
 	},
 	"devDependencies": {
 		"drizzle-kit": "^0.31.5",
