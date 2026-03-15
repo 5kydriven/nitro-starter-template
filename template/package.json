@@ -7,11 +7,16 @@
 		"dev": "nitro dev"
 	},
 	"devDependencies": {
+		"drizzle-kit": "^0.31.9",
 		"h3": "^1.15.4",
-		"nitropack": "^2.12.4"
+		"nitropack": "^2.12.4",
+		"tsx": "^4.21.0"
 	},
 	"dependencies": {
 		"@types/node": "^24.5.2",
+		"dotenv": "^17.3.1",
+		"drizzle-orm": "^0.45.1",
+		"postgres": "^3.4.8",
 		"zod": "^4.1.9"
 	}
 }
